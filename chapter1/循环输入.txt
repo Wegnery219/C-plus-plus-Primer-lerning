@@ -1,0 +1,3 @@
+while(cin>>value)
+
+在控制台中，ctrl+Z 然后按enter 实现输入文件结束符
