@@ -2,6 +2,8 @@
 #include<vector>
 using namespace std;
 int main(){
+	double d=11.1223314;
+	printf("%.2lf",d);
 	vector<int> a={0,1,3,2};
 	vector<int> b={0,1,1,2,3,5,8};
 	int la=a.size();
@@ -15,5 +17,6 @@ int main(){
 	}
 	//这是条错误的语句for{int i:{1,2,3,4}}{;}
 	cout<<"yes";
+	
 	return 0;
 } 
